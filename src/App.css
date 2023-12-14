@@ -1,0 +1,112 @@
+@import 'reset-css';
+
+.main {
+  padding: 1.5rem 1rem 1rem;
+}
+.main h4 {
+  font-size: calc(1.275rem + 0.3vw);
+}
+.main code {
+  color: #d63384;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+.mainB{
+  display: flex;
+  flex-direction: column;
+}
+.outputD{
+  display: flex;
+  flex-direction: row;
+}
+.appMain{
+  /* display: flex; */
+  /* padding: 5px; */
+  width: 100%;
+  background-color: dodgerblue;
+  /* padding: 0.5vw; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.titleD{
+  display: flex;
+  color: white;
+  margin: 5px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* justify-items: center; */
+  width: 100%;
+}
+.icon{
+  font-size:20px;
+  font-weight: 600;
+}
+.editD div{
+  display: flex;
+  flex-direction: column;
+  /* background-color: dodgerblue; */
+  /* margin-bottom: 3px; */
+
+}
+.tipD{
+  font-size: 10px;
+  background-color: #FFF2CC;
+  border: 1px #D6B656 solid;
+  border-radius: 2px;
+  padding: 2px;
+  margin: 5px;
+}
+.wrongTipD{
+  font-size: 10px;
+  background-color: #ffdacc;
+  border: 1px #d65656 solid;
+  border-radius: 2px;
+  padding: 2px;
+  margin: 5px;
+
+}
+.whiteFronD{
+  background-color: white;
+  border-radius: 10px 10px 0px 0px;
+  /* padding:3px ; */
+  width: 100%;
+
+}
+.borderFronD{
+  border:1.5px solid dodgerblue;
+  margin: 10px;
+  border-radius:10px;
+  padding:5px 4px;
+}
+.ReCarb{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* overflow: hidden; */
+  /* padding: 5px; */
+}
+.ReCarbIt{
+  /* margin-bottom: 3px; */
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  font-size: 12px;
+  /* margin : 5px; */
+  /* padding: 4px; */
+}
+.biCarb{
+  width: 40%;
+}
+.siCarb{
+  width: 40%;
+}
+.changeD{
+  display: flex;
+  width: 32%;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 12px;
+}
